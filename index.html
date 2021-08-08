@@ -16,105 +16,134 @@
   </head>
   <body>
     <div class="container">
-      <form>
-        <input
-          type="city"
-          placeholder="Enter a city"
-          autocomplete="off"
-          id="city-input"
-        />
-        <input type="submit" value="Submit" />
-        <button class="btn btn-success" id="current-location-button">
-          Current
-        </button>
-      </form>
+      <div class="weather-app">
+        <form>
+          <input
+            type="city"
+            placeholder="Enter a city"
+            autocomplete="off"
+            id="city-input"
+          />
+          <input type="submit" value="Submit" />
+          <button class="btn btn-success" id="current-location-button">
+            Current
+          </button>
+        </form>
 
-      <h1 id="city">Paris</h1>
+        <h1 id="city">Paris</h1>
 
-      <h2 id="date">Thursday 12:00</h2>
-      <div class="temperature">
-        <span class="temperature" id="temperature">19</span>
-        <a href="#" class="unit" id="celsius">°C</a>
-        <span class="unit">|</span>
-        <a href="#" class="unit" id="fahrenheit">°F</a>
-      </div>
+        <h2 id="date">Thursday 12:00</h2>
+        <div class="temperature">
+          <span class="temperature" id="temperature">19</span>
+          <a href="#" class="unit" id="celsius">°C</a>
+          <span class="unit">|</span>
+          <a href="#" class="unit" id="fahrenheit">°F</a>
+        </div>
 
-      <p class="description" id="description">Partly cloudy</p>
-      <p>☀</p>
-      <ul>
-        <li>Humidity: <span id="humidity">77</span>%</li>
-        <li>Wind: <span id="wind">8</span>km/h</li>
-      </ul>
-      <div class="row">
-        <div class="col">
-          <div class="card text-white bg-primary mb-3" style="max-width: 13rem">
-            <div class="card-header">Monday</div>
-            <div class="card-body">
-              <h5 class="card-title">☀</h5>
-              <p class="card-text">15°</p>
+        <p class="description" id="description">Partly cloudy</p>
+        <p>☀</p>
+        <ul>
+          <li>Humidity: <span id="humidity">77</span>%</li>
+          <li>Wind: <span id="wind">8</span>km/h</li>
+        </ul>
+        <div class="row">
+          <div class="col">
+            <div
+              class="card text-white bg-primary mb-3"
+              style="max-width: 13rem"
+            >
+              <div class="card-header">Monday</div>
+              <div class="card-body">
+                <h5 class="card-title">☀</h5>
+                <p class="card-text">15°</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card text-white bg-primary mb-3"
+              style="max-width: 13rem"
+            >
+              <div class="card-header">Tuesday</div>
+              <div class="card-body">
+                <h5 class="card-title">☀</h5>
+                <p class="card-text">15°</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card text-white bg-primary mb-3"
+              style="max-width: 13rem"
+            >
+              <div class="card-header">Wednesday</div>
+              <div class="card-body">
+                <h5 class="card-title">☀</h5>
+                <p class="card-text">15°</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card text-white bg-primary mb-3"
+              style="max-width: 13rem"
+            >
+              <div class="card-header">Thursday</div>
+              <div class="card-body">
+                <h5 class="card-title">☀</h5>
+                <p class="card-text">15°</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card text-white bg-primary mb-3"
+              style="max-width: 13rem"
+            >
+              <div class="card-header">Friday</div>
+              <div class="card-body">
+                <h5 class="card-title">☀</h5>
+                <p class="card-text">15°</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card text-white bg-primary mb-3"
+              style="max-width: 13rem"
+            >
+              <div class="card-header">Saturday</div>
+              <div class="card-body">
+                <h5 class="card-title">☀</h5>
+                <p class="card-text">15°</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card text-white bg-primary mb-3"
+              style="max-width: 13rem"
+            >
+              <div class="card-header">Sunday</div>
+              <div class="card-body">
+                <h5 class="card-title">☀</h5>
+                <p class="card-text">15°</p>
+              </div>
             </div>
           </div>
         </div>
-
-        <div class="col">
-          <div class="card text-white bg-primary mb-3" style="max-width: 13rem">
-            <div class="card-header">Tuesday</div>
-            <div class="card-body">
-              <h5 class="card-title">☀</h5>
-              <p class="card-text">15°</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card text-white bg-primary mb-3" style="max-width: 13rem">
-            <div class="card-header">Wednesday</div>
-            <div class="card-body">
-              <h5 class="card-title">☀</h5>
-              <p class="card-text">15°</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card text-white bg-primary mb-3" style="max-width: 13rem">
-            <div class="card-header">Thursday</div>
-            <div class="card-body">
-              <h5 class="card-title">☀</h5>
-              <p class="card-text">15°</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card text-white bg-primary mb-3" style="max-width: 13rem">
-            <div class="card-header">Friday</div>
-            <div class="card-body">
-              <h5 class="card-title">☀</h5>
-              <p class="card-text">15°</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card text-white bg-primary mb-3" style="max-width: 13rem">
-            <div class="card-header">Saturday</div>
-            <div class="card-body">
-              <h5 class="card-title">☀</h5>
-              <p class="card-text">15°</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card text-white bg-primary mb-3" style="max-width: 13rem">
-            <div class="card-header">Sunday</div>
-            <div class="card-body">
-              <h5 class="card-title">☀</h5>
-              <p class="card-text">15°</p>
-            </div>
-          </div>
-        </div>
+        <small>
+          <a href="https://github.com/SandraDob/weather-app" target="_blank"
+            >Open-source code</a
+          >
+          by Sandra Dobric</small
+        >
       </div>
     </div>
     <script src="src/javscript.js"></script>

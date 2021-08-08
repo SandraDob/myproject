@@ -2,19 +2,27 @@ h1,
 h2,
 h3 {
   margin: auto;
-  text-align: center;
+  text-align: end;
+}
+h1 {
+  font-size: 90px;
 }
 p {
   text-align: center;
   font-size: 200%;
 }
 
-body {
+body .container {
   background: radial-gradient(
     592px at 48.2% 50%,
     rgba(255, 255, 249, 0.6) 0%,
     rgb(160, 199, 254) 74.6%
   );
+  margin: 50px;
+  display: block;
+  border-radius: 16px;
+  box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.08);
+  padding: 40px;
 }
 
 .temperature {
