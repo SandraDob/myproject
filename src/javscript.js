@@ -59,8 +59,8 @@ function search(city) {
 function handleSubmit(event) {
   event.preventDefault();
 
-  let city = document.querySelector("#city-input").value;
-  search(city);
+  let city = document.querySelector("#city-input");
+  search(city.value);
 }
 
 function displayFahrenheitTemperature(event) {

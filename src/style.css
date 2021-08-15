@@ -45,11 +45,21 @@ body {
   text-align: center;
   font-size: 200%;
 }
-.unit {
-  font-size: 50%;
+.temperature .unit {
   position: relative;
+  font-size: 16px;
   top: -34px;
 }
+
+.temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.temperature .active:hover {
+  text-decoration: none;
+}
+
 .card-header {
   text-align: center;
 }
