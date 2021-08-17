@@ -17,7 +17,7 @@
   <body>
     <div class="container">
       <div class="weather-app">
-        <form>
+        <form id="search-form">
           <input
             type="city"
             placeholder="Enter a city"
@@ -34,10 +34,12 @@
 
         <h2 id="date">Thursday 12:00</h2>
         <div class="temperature">
-          <span class="temperature" id="temperature">19</span>
-          <a href="#" class="unit" id="celsius-link">°C</a>
-          <span class="unit">|</span>
-          <a href="#" class="unit" id="fahrenheit-link">°F</a>
+          <strong class="temperature" id="temperature">19</strong>
+
+          <span class="units"
+            ><a href="#" id="celsius-link" class="active">°C</a> |
+            <a href="#" id="fahrenheit-link">°F</a></span
+          >
         </div>
         <div class="overview-icon" id="overview-icon">
           <img src="" alt="Clear" id="icon" class="float-left" />

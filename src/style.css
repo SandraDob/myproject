@@ -40,12 +40,17 @@ body {
   margin-top: -50px;
   margin-bottom: 20px;
 }
+
 .temperature {
+  color: rgb(33, 33, 33);
+  line-height: 1;
+  font-weight: 400;
   margin: auto;
   text-align: center;
   font-size: 200%;
 }
-.temperature .unit {
+
+.temperature .units {
   position: relative;
   font-size: 16px;
   top: -34px;
