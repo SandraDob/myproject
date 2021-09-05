@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/style.css" />
+
     <title>weahter app</title>
   </head>
   <body>
@@ -19,12 +20,13 @@
       <div class="weather-app">
         <form id="search-form">
           <input
+            class="enter"
             type="city"
             placeholder="Enter a city"
             autocomplete="off"
             id="city-input"
           />
-          <input type="submit" value="Submit" />
+          <input class="submit" type="submit" value="Submit" />
           <button class="btn btn-success" id="current-location-button">
             Current
           </button>
@@ -51,15 +53,15 @@
         </ul>
 
         <div class="weather-forecast" id="forecast"></div>
-
-        <small>
+        <footer class="source" id="source">
           <a href="https://github.com/SandraDob/weather-app" target="_blank"
             >Open-source code</a
           >
-          by Sandra Dobric</small
-        >
+          by Sandra Dobric
+        </footer>
       </div>
     </div>
+
     <script src="src/javscript.js"></script>
   </body>
 </html>
